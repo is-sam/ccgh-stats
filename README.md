@@ -1,5 +1,9 @@
 # ccgh-stats
 
+[![npm version](https://img.shields.io/npm/v/ccgh-stats.svg)](https://www.npmjs.com/package/ccgh-stats)
+[![npm downloads](https://img.shields.io/npm/dm/ccgh-stats.svg)](https://www.npmjs.com/package/ccgh-stats)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Track and display your Claude Code usage stats on GitHub with a beautiful heatmap widget.
 
 ![Claude Stats Widget](https://ccgh-stats.vercel.app/api/w/pub_demo.svg)
