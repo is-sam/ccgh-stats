@@ -1,0 +1,34 @@
+{
+  "name": "ccgh-stats",
+  "version": "0.1.0",
+  "description": "Track and display your Claude Code usage stats on GitHub",
+  "type": "module",
+  "bin": {
+    "ccgh-stats": "./bin/ccgh-stats.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "stats",
+    "github",
+    "widget"
+  ],
+  "author": "Issam M <mejdoubi.issam@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/is-sam/ccgh-stats"
+  },
+  "bugs": {
+    "url": "https://github.com/is-sam/ccgh-stats/issues"
+  },
+  "homepage": "https://github.com/is-sam/ccgh-stats#readme"
+}
