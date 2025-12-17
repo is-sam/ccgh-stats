@@ -2,7 +2,9 @@
 
 Track and display your Claude Code usage stats on GitHub with a beautiful heatmap widget.
 
-![Claude Stats Widget](https://claude-github-stats.vercel.app/api/w/pub_example.svg)
+![Claude Stats Widget](https://ccgh-stats.vercel.app/api/w/pub_demo.svg)
+
+*Yes, this is a real widget generated live from actual backend data! ✨*
 
 ## Installation
 
@@ -20,14 +22,13 @@ ccgh-stats setup
 
 This will:
 - Register you with the API
-- Parse all your Claude Code session history
-- Upload your stats
+- Sync your Claude Code usage history
 - Give you a widget URL
 
-2. **Add the widget to your GitHub README:**
+1. **Add the widget to your GitHub README:**
 
 ```markdown
-![Claude Stats](https://claude-github-stats.vercel.app/api/w/YOUR_PUBLIC_ID.svg)
+![Claude Stats](https://ccgh-stats.vercel.app/api/w/YOUR_PUBLIC_ID.svg)
 ```
 
 ## Auto-sync with Claude Code Hooks
