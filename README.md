@@ -102,6 +102,14 @@ A machine that was set up before device IDs existed keeps sending under the name
 
 If your numbers ever look wrong, `ccgh-stats sync --full` reads everything again and resends every day.
 
+## Development
+
+The tests need no install and no network. They run the parser and the CLI against a stub of the API inside a throwaway home directory.
+
+```bash
+npm test
+```
+
 ## Privacy
 
 - Only token counts are sent (input/output tokens per day per model)

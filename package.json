@@ -6,6 +6,9 @@
   "bin": {
     "ccgh-stats": "./bin/ccgh-stats.js"
   },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
   "files": [
     "bin/",
     "lib/"
