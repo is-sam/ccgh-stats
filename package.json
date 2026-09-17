@@ -1,10 +1,13 @@
 {
   "name": "ccgh-stats",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Track and display your Claude Code usage stats on GitHub",
   "type": "module",
   "bin": {
     "ccgh-stats": "./bin/ccgh-stats.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
   },
   "files": [
     "bin/",
